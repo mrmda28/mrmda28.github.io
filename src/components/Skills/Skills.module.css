@@ -1,0 +1,38 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.skill {
+    --color-skill-background-light: rgb(70, 70, 70);
+    --color-skill-background-dark: rgb(225, 225, 225);
+    --color-skill-background: var(--color-skill-background-dark);
+
+    background-color: var(--color-skill-background);
+    padding: 5px;
+    border-radius: 8px;
+
+    --color-skill-color: var(--color-text-secondary-light);
+    color: var(--color-skill-color);
+
+    font-weight: bold;
+}
+
+.skill:hover {
+    --color-skill-background-hover-light: rgb(110, 110, 110);
+    --color-skill-background-hover-dark: rgb(240, 240, 240);
+    --color-skill-background-hover: var(--color-skill-background-hover-dark);
+
+    background-color: var(--color-skill-background-hover);
+}
+
+@media (prefers-color-scheme: light) {
+  .skill {
+    --color-skill-background: var(--color-skill-background-light);
+    --color-skill-color: var(--color-text-secondary-dark);
+  }
+  .skill:hover {
+    --color-skill-background-hover: var(--color-skill-background-hover-light);
+  }
+}

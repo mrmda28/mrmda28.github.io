@@ -1,0 +1,51 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.company {
+    align-content: center;
+}
+
+.description {
+    font-weight: normal;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.stackList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.stackItem {
+    --color-stack-background-light: rgb(225, 225, 225);
+    --color-stack-background-dark: rgb(70, 70, 70);
+    --color-stack-background: var(--color-stack-background-dark);
+
+    background-color: var(--color-stack-background);
+    padding: 5px;
+    border-radius: 8px;
+    color: var(--color-text-secondary);
+}
+
+.stackItem:hover {
+    --color-stack-background-hover-light: rgb(240, 240, 240);
+    --color-stack-background-hover-dark: rgb(110, 110, 110);
+    --color-stack-background-hover: var(--color-stack-background-hover-dark);
+
+    background-color: var(--color-stack-background-hover);
+}
+
+@media (prefers-color-scheme: light) {
+  .stackItem {
+    --color-stack-background: var(--color-stack-background-light);
+  }
+  .stackItem:hover {
+    --color-stack-background-hover: var(--color-stack-background-hover-light);
+  }
+}
