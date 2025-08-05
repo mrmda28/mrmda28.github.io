@@ -1,4 +1,4 @@
-import { ExperienceItem, type ExperienceProps } from "../ExperienceItem/ExperienceItem.tsx";
+import { ExperienceItem, type ExperienceProps } from "../ExperienceItem/ExperienceItem.tsx"
 
 const experienceList: ExperienceProps[] = [
   {
