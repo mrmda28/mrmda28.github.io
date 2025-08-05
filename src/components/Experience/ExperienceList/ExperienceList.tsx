@@ -2,6 +2,13 @@ import { ExperienceItem, type ExperienceProps } from "../ExperienceItem/Experien
 
 const experienceList: ExperienceProps[] = [
   {
+    company: 'Wildberries',
+    period: '04.2025 – Present',
+    description: '(Leading e-commerce company in Eastern Europe)',
+    attainments: [],
+    stack: ['Swift', 'SwiftUI']
+  },
+  {
     company: 'MTS Digital',
     period: '04.2024 – 04.2025',
     description: '(Leading telecommunications group in Eastern Europe)',
