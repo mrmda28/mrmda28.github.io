@@ -1,7 +1,7 @@
 import styles from './Skills.module.css'
 
 const skills: string[] = [
-  'Swift', 'SwiftUI', 'UIKit', 'GCD', 'Swift Concurrency'
+  'Swift', 'SwiftUI', 'UIKit', 'GCD', 'Swift Concurrency', 'Testing'
 ]
 
 export const Skills = () => {
