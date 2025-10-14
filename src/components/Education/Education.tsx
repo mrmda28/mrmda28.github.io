@@ -1,4 +1,4 @@
-const title = 'National Research University Higher School of Economics (HSE)'
+const title = 'National Research University Higher School of Economics'
 const subtitle = 'B.Sc. in Software Engineering with Honors | 2021 – 2025'
 
 export const Education = () => {
