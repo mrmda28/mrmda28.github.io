@@ -6,7 +6,7 @@ interface Button {
   link: string
 }
 
-const title = 'Dmitry Maslennikov'
+const title = 'Dmitrii Maslennikov'
 const subtitle = 'Software Engineer | iOS Developer'
 const buttons: Button[] = [
   {
