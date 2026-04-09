@@ -6,7 +6,7 @@ const experienceList: ExperienceProps[] = [
     period: '08.2025 – Present',
     description: '(Leading e-commerce company in Eastern Europe)',
     attainments: [],
-    stack: ['Swift', 'SwiftUI', 'UIKit', 'Design System', 'Snapshot testing', 'DocC']
+    stack: ['Swift', 'SwiftUI', 'UIKit', 'Snapshot testing', 'UI testing']
   },
   {
     company: 'MTS Digital',
