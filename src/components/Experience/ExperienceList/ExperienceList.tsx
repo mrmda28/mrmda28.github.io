@@ -3,14 +3,14 @@ import { ExperienceItem, type ExperienceProps } from "../ExperienceItem/Experien
 const experienceList: ExperienceProps[] = [
   {
     company: 'Wildberries',
-    period: '08.2025 – Present',
+    period: 'Aug 2025 – Present',
     description: '(Leading e-commerce company in Eastern Europe)',
     attainments: [],
     stack: ['Swift', 'SwiftUI', 'UIKit', 'Snapshot testing', 'UI testing']
   },
   {
     company: 'MTS Digital',
-    period: '04.2024 – 04.2025',
+    period: 'Apr 2024 – Apr 2025',
     description: '(Leading telecommunications group in Eastern Europe)',
     attainments: [
       'Designed and implemented new features – from clarifying requirements and reviewing designs to making technical decisions and delivering the final implementation.',
@@ -22,7 +22,7 @@ const experienceList: ExperienceProps[] = [
   },
   {
     company: 'TheBestApp',
-    period: '12.2022 – 04.2024',
+    period: 'Dec 2022 – Apr 2024',
     description: '(Outsourcing / outstaffing company)',
     attainments: [
       'Collaborated with multiple teams to design and develop new application modules.',
@@ -33,7 +33,7 @@ const experienceList: ExperienceProps[] = [
   },
   {
     company: 'SWTec',
-    period: '02.2022 – 09.2022',
+    period: 'Feb 2022 – Sep 2022',
     description: '(Outsourcing company)',
     attainments: [
       'Designed and developed new modules based on the VIPER architecture.',
