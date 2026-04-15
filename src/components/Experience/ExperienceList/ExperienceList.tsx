@@ -22,7 +22,7 @@ const experienceList: ExperienceProps[] = [
   },
   {
     company: 'TheBestApp',
-    period: '12.2022 – 04.2024 | 03.2021 – 02.2022',
+    period: '12.2022 – 04.2024',
     description: '(Outsourcing / outstaffing company)',
     attainments: [
       'Collaborated with multiple teams to design and develop new application modules.',
